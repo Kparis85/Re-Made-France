@@ -37,29 +37,22 @@ h2 {
     font-size: 130%;
     margin-bottom: 20px;
 }
-/*
-h3 {
-    color: #00c125;
-    font-size: 160%;
-}
 
 p {
-    font-size: 70%;
+    font-size: 110%;
     font-weight: 400;
     line-height: 24px;  
 }
-*/
 
 section {
     padding: 10px;
 }
 
-
 /* HEADER
 =========================================================*/
 
 .image-title {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.95),rgba(255,255,255,0.6)),url(../images/maps.png);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6),rgba(255,255,255,0.8)),url(../images/maps.png);
     height: auto;
     background-position: center;
     margin-top: 85px
@@ -74,39 +67,13 @@ section {
     font-weight: 800;
 }
 
-/*
-.image-calque-tittle {
-    color: transparent;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.9),rgba(255,255,255,0.7)),url(../images/delete.png);
-    background-position: center;
-    background-size: cover;
-
-}
-
-.text-tittle {
-    position: relative;
-    top: 30%; 
-}
-
-.image-intro {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.8),rgba(255,255,255,0.8)),url(../images/test_reso_1920x1080.jpg);
-    height: 40vh;
-    background-position: center;
-    background-size: cover;
-}
-
-.text-intro {
-    position: relative;
-    top: 10%; 
-}
-*/
 
 /* AGIR
 =========================================================*/
 .fond-detail {
     border-color: black;
     border-top-style: solid;
-    background-image: url(../images/main_soleil.jpg);
+    background-image:  linear-gradient(rgba(255, 255, 255, 0.2),rgba(255,255,255,0.4)),url(../images/main_soleil.jpg);
     background-size:cover;
     background-position: center;
 }
@@ -116,6 +83,11 @@ section {
 .bloc-vignette {
     margin-top: 15px;
     margin-bottom: 15px;
+    text-align: center;
+}
+
+.bloc-vignette p {
+    font-size: 90%;
 }
 
 .vignette {
@@ -140,13 +112,14 @@ section {
 .fond-services {
     border-color: black;
     border-top-style: solid;
-    background-image: url(../images/pousse.jpg);
+    background-image:  linear-gradient(rgba(255, 255, 255, 0.3),rgba(255,255,255,0.5)),url(../images/pousse.jpg);
     background-size:cover;
     background-position: center;
 }
+
 .bloc-services {
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 175px;
 }
 
 .vignette2 {
@@ -154,12 +127,26 @@ section {
     background-size: contain 0;
     background-repeat: no-repeat;
     background-position: bottom;
-    height: 250px;
+    height: 150px;
     border-radius: 30px;
     box-shadow: 0 0 10px rgb(0, 17, 145);
     padding: 5px;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 10px;
+}
+
+.pack-services ul{
+    list-style: none;
+    padding: 10px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+}
+
+.pack-services ul li i {
+    font-size: 100%;
+    margin-right: 10px;
+
 }
 
 /* FORMULAIRE DE CONTACT
